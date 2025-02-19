@@ -40,7 +40,7 @@ def square():
 def cube():
     # INIT
     gmsh.initialize()
-    gmsh.model.add("square")
+    gmsh.model.add("cube")
 
     # POINTS --> (x, y, z, size, tag)
     size = 0.01
